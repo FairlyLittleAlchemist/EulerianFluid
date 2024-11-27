@@ -38,8 +38,15 @@ The project relies on:
 
 - Initialization: The grid is set up with scalar and velocity fields.
 - Time Step Integration:
-    Gravity is applied to velocity fields.
-    Smoke and velocities are advected using a semi-Lagrangian scheme.
+    -Gravity is applied to velocity fields.
+    -Smoke and velocities are advected using a semi-Lagrangian scheme.
 - Incompressibility Solve: Iteratively adjusts pressure to maintain divergence-free velocities.
 - Boundary Handling: Enforces zero and extrapolated boundary conditions for stability.
 
+
+## Extending the Project
+
+- You can enhance the simulation by:
+
+    - Adding a graphical frontend for visualization.
+    - Introducing obstacles or moving boundaries within the fluid domain
